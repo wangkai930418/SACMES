@@ -34,3 +34,12 @@ brew to install the tkinter
 ```
 brew install python-tk
 ```
+
+
+# Install packages in Windows conda environment
+create a conda env and activate
+```
+conda create -n sacmes python=3.8
+conda activate sacmes
+pip install matplotlib scipy Pillow
+```
