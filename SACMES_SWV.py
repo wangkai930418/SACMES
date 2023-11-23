@@ -66,11 +66,12 @@ warnings.filterwarnings(action="ignore", module="scipy", message="^internal gels
 #-- file handle variable --#
 handle_variable = ''    # default handle variable is nothing
 e_var = 'single'        # default input file is 'Multichannel', or a single file containing all electrodes
+# e_var = 'multiple'        # default input file is 'Multichannel', or a single file containing all electrodes
 PHE_method = 'Abs'      # default PHE Extraction is difference between absolute max/min
 
 #------------------------------------------------------------#
 
-InputFrequencies = [30,80,240]  # frequencies initially displayed in Frequency Listbox
+InputFrequencies = [3, 30,80,240]  # frequencies initially displayed in Frequency Listbox
 electrodes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 
 #---------------------------------------------------------------------------------------------------#
